@@ -43,12 +43,14 @@
     "@commitlint/cli": "^7.0.0",
     "@commitlint/config-conventional": "^7.0.1",
     "@commitlint/travis-cli": "^7.0.0",
+    "@types/chai": "^4.1.4",
     "@types/ember": "^2.8.26",
     "@types/ember-data": "^2.14.17",
     "@types/ember-mocha": "^0.12.3",
     "@types/ember-test-helpers": "^0.7.1",
     "@types/ember-testing-helpers": "^0.0.3",
     "@types/mocha": "^5.2.2",
+    "@types/node": "^10.3.3",
     "@types/rsvp": "^4.0.1",
     "broccoli-asset-rev": "^2.7.0",
     "chai": "^4.1.2",
@@ -99,7 +101,8 @@
   "ember-addon": {
     "configPath": "tests/dummy/config",
     "fastbootDependencies": [
-      "najax"
+      "najax",
+      "url"
     ]
   },
   "greenkeeper": {
